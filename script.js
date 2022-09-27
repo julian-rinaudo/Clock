@@ -30,7 +30,7 @@ const clock = () => {
     }
 
     second.textContent < 10 ? second.textContent = "0" + time.getSeconds() : ""
-    minute.textContent < 10 ? minu.textContent = "0" + time.getMinutes() : ""
+    minute.textContent < 10 ? minute.textContent = "0" + time.getMinutes() : ""
 }
 
 setInterval(()=> {
